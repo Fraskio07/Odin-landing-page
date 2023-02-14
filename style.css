@@ -1,0 +1,168 @@
+body{
+    font-family: 'DejaVu sans';
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.Quote{
+    background-color: #e5e7eb;
+    padding-left: 6cm;
+    padding-right: 6cm;
+    padding-top: 3cm;
+    padding-bottom: 2cm;
+}
+
+#QuoteText{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+#QuoteName{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    color: #1f2937;
+}
+
+footer,
+.links,
+.Head{
+    background-color: #1f2937;
+}
+
+.HeadMid{
+    display: flex;
+    justify-content: space-between;
+}
+
+#SmallText{
+   width: 10cm;
+}
+
+.End{
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 5cm;
+    padding-right: 5cm;
+}
+
+#Call{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Action{
+    background-color: #3882f6;
+    border-radius: 7px;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #3882f6;
+    height: 0.75cm;
+    margin-top: 5px;
+    border-radius: 7px;
+    width: 2.5cm;
+    border: solid;
+    color: #f9faf8;
+    border-color: #3882f6;
+}
+
+#FinalButton{
+    border-color: #f9faf8;
+    
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 1cm;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2cm;
+}
+
+a{
+    margin: 5px;
+    color: #e5e7eb;
+}
+
+#logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.HeaderSecText{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.Middle{
+    color: #1f2937;
+    text-align: center;
+    padding-top: 1cm;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2cm;
+}
+
+.Square{
+    height: 7cm;
+    padding: 30px;
+    align-items: center;
+    width: 156px;
+}
+
+.squares{
+    display: flex;
+    justify-content: center;
+}
+
+.Container{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    color: #3882f6;
+    border: 3px solid;
+    margin-bottom: 10px;
+}
+
+#Information{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 1cm;
+}
+
+#HeroMain{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+#Placeholder{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4cm;
+}
+
+.Head{
+    padding-left: 3cm;
+    padding-right: 3cm;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2cm;
+}
